@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #ffffff;
+  --color-foreground: #0a0a0a;
+  --color-card: #ffffff;
+  --color-card-foreground: #0a0a0a;
+  --color-popover: #ffffff;
+  --color-popover-foreground: #0a0a0a;
+  --color-primary: #1a3a5c;
+  --color-primary-foreground: #f8fafc;
+  --color-secondary: #f1f5f9;
+  --color-secondary-foreground: #1a3a5c;
+  --color-muted: #f1f5f9;
+  --color-muted-foreground: #64748b;
+  --color-accent: #f1f5f9;
+  --color-accent-foreground: #1a3a5c;
+  --color-destructive: #ef4444;
+  --color-destructive-foreground: #ffffff;
+  --color-border: #e2e8f0;
+  --color-input: #e2e8f0;
+  --color-ring: #1a3a5c;
+  --radius: 0.5rem;
+}
+
+* {
+  border-color: var(--color-border);
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+}
+
+.hl-session {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 0.875rem;
+  color: var(--color-primary);
+  background: var(--color-secondary);
+  padding: 0.125rem 0.625rem;
+  border-radius: 9999px;
+}
+
+.hl-mindful {
+  color: #7c3aed;
+  font-weight: 600;
+}
+
+.hl-class {
+  color: #0369a1;
+  font-weight: 600;
+}
+
+.hl-check {
+  color: #b45309;
+  font-weight: 600;
+}
